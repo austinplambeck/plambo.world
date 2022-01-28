@@ -1,0 +1,232 @@
+/*-------------DESKTOP BLOG POST FORMAT---------------*/
+
+.writingDesktop {
+    margin-left: 24%;
+    margin-right: 24%;
+    position: relative;
+    top: 14vh;
+}
+
+.imageWritingDesktop {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+
+.imageWritingDesktop img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.titleWritingDesktop {
+    text-align: center;
+}
+
+#smallArticleTitle {
+    font-size: 2.6rem;
+    font-style: italic;
+    margin-bottom: 2vh;
+    margin-top: 6vh;
+    text-shadow: 0.3vh 0.3vh rgb(0, 132, 255);
+}
+
+#largeArticleTitle {
+    font-size: 3.0rem;
+    font-style: italic;
+    margin-bottom: 2vh;
+    margin-top: 6vh;
+    text-shadow: 0.3vh 0.3vh rgb(0, 132, 255);
+}
+
+.titleWritingDesktop h3 {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 2vh;
+}
+
+.writingDesktop h5 {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.contentWritingDesktop p {
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.3rem;
+    word-spacing: 0.2rem;
+}
+
+#novelArticle1Paragraph {
+    margin-top: 2vh;
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.3rem;
+    word-spacing: 0.2rem;
+}
+
+#novelArticle1Paragraph2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.3rem;
+    word-spacing: 0.2rem;
+}
+
+#novelArticle1List {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.writingDesktop ul, .writingDesktop li {
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.3rem;
+    word-spacing: 0.2rem;
+}
+
+.writingDesktop ul li a, .writingDesktop p a {
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.contentWritingDesktop span {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+#postTags2 {
+    color:rgb(0, 80, 155);
+    text-decoration: none;
+    font-size: 1.2rem;
+    z-index: 99;
+}
+
+#postTags2:hover {
+    color: black;
+}
+
+.articleEmailSignUp {
+    width: 60%;
+    margin: auto;
+}
+
+.writingMobile2 {
+    display: none;
+}
+
+
+/*-------------MOBILE BLOG POST FORMAT---------------*/
+
+@media only screen and (max-width: 1000px) {
+    .writingDesktop {
+        display: none;
+    }
+
+    .writingMobile2 {
+        display: block;
+        position: relative;
+        top: 13vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .imageWritingMobile {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black;
+        text-align: right;
+    }
+    
+    .imageWritingMobile img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .titleWritingMobile2 {
+        text-align: center;
+    }
+
+    #smallArticleTitleMobile {
+        font-size: 1.7rem;
+        margin-bottom: 2vh;
+        margin-top: 6vh;
+    }
+    
+    #largeArticleTitleMobile {
+        font-size: 2.2rem;
+        margin-bottom: 2vh;
+        margin-top: 6vh;
+    }
+    
+    .titleWritingMobile2 h3 {
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 2vh;
+    }
+
+    .writingMobile2 h5 {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    
+    .contentWritingMobile2 p {
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+        font-size: 1.3rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 2.3rem;
+        word-spacing: 0.2rem;
+    }
+
+    .writingMobile2 ul, .writingMobile2 li {
+        font-size: 1.4rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 2.3rem;
+        word-spacing: 0.2rem;
+    }
+
+    .writingMobile2 ul li a, .writingMobile2 p a {
+        font-size: 1.3rem;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .contentWritingMobile2 span {
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+    }
+}
+
+/*----------------NOVEL LESSONS PART 2------------------*/
+
+#novelLessons2BoldText {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*-------------UNIVERSAL BLOG POST FORMAT---------------*/
+#blogPostSpacing {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
