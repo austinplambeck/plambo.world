@@ -244,7 +244,7 @@ html {
 /*---------------------------CATEGORIES DESKTOP--------------------------------*/
 
 .categoriesDesktop {
-    margin: 8vh 3vh 3vh 3vh;
+    margin: 6vh 3vh 8vh 3vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -286,6 +286,7 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.95)), url('../images/TScategory3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10% 10%;
     height: 35vh;
     border: 0.05vh solid white;
     transition: 2s;

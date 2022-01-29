@@ -359,6 +359,7 @@
             background-repeat: no-repeat;
             height: 17vh;
             border-bottom: 0.1vh solid white;
+            position: relative;
         }
 
         .projectsCategoryMobile {
@@ -367,6 +368,7 @@
             background-repeat: no-repeat;
             height: 17vh;
             border-bottom: 0.1vh solid white;
+            position: relative;
         }
 
         .writingCategoryMobile {
@@ -376,6 +378,7 @@
             background-position: 70% 70%;
             height: 17vh;
             border-bottom: 0.1vh solid white;
+            position: relative;
         }
 
         .blogCategoryMobile {
@@ -385,6 +388,7 @@
             background-position: 50% 60%;
             height: 17vh;
             border-bottom: 0.1vh solid white;
+            position: relative;
         }
 
         .mythicgameCategoryMobile {
@@ -393,6 +397,17 @@
             background-repeat: no-repeat;
             background-position: 20% 40%;
             height: 17vh;
+            border-bottom: 0.1vh solid white;
+            position: relative;
+        }
+
+        .newsletterCategoryMobile {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.95)), url('../images/letter-box-gfe88e9657_1920.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 20% 40%;
+            height: 17vh;
+            position: relative;
         }
 
 
@@ -566,7 +581,7 @@
             height: 7vh;
         }
 
-        .instaMobile, .twitterMobile, .linkedinMobile {
+        .instaMobile, .twitterMobile, .linkedinMobile, .newsletterMobile {
             display: flex;
             margin: 2vh;
         }
